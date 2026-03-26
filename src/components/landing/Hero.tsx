@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Shield, Clock, MapPin, Star, BadgePercent } from "lucide-react";
+import { Shield, Clock, MapPin, Star, BadgePercent, Plane, Ship } from "lucide-react";
 
 export function Hero() {
   return (
@@ -34,25 +34,45 @@ export function Hero() {
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-brand-200 sm:text-xl">
             Parking vigilado 24hs con traslado incluido para{" "}
             <strong className="text-white">Aeroparque</strong> y{" "}
-            <strong className="text-white">Terminal de Cruceros</strong>.
+            <strong className="text-white">Puerto de Buenos Aires</strong>.
             Al mejor precio garantizado.
           </p>
 
-          <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
+          {/* Destination selector */}
+          <p className="mt-8 text-sm font-medium uppercase tracking-widest text-brand-400">
+            Elegí tu destino
+          </p>
+          <div className="mt-4 grid gap-4 sm:grid-cols-2 sm:max-w-2xl sm:mx-auto">
             <Link
-              href="/#servicios"
-              className="group w-full rounded-2xl bg-accent-500 px-10 py-4 text-center text-lg font-bold text-brand-950 shadow-xl shadow-accent-500/30 transition-all hover:bg-accent-400 hover:shadow-accent-500/50 hover:scale-[1.03] sm:w-auto"
+              href="#aeroparque"
+              className="group flex items-center gap-4 rounded-2xl border-2 border-white/15 bg-white/10 px-6 py-5 text-left backdrop-blur-sm transition-all hover:border-blue-400/50 hover:bg-blue-500/20 hover:scale-[1.03]"
             >
-              Ver servicios y precios
-              <svg className="ml-2 inline h-5 w-5 transition-transform group-hover:translate-y-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+              <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-blue-500/80">
+                <Plane className="h-7 w-7 text-white" />
+              </div>
+              <div>
+                <span className="block text-xl font-extrabold text-white">Aeroparque</span>
+                <span className="text-sm text-blue-200">Valet Parking &middot; Larga Estadía</span>
+              </div>
+              <svg className="ml-auto h-5 w-5 text-white/50 transition-transform group-hover:translate-x-1 group-hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
               </svg>
             </Link>
+
             <Link
-              href="/reservar/cruceros"
-              className="w-full rounded-2xl border-2 border-white/20 bg-white/10 px-10 py-4 text-center text-lg font-bold text-white backdrop-blur-sm transition-all hover:border-white/40 hover:bg-white/20 sm:w-auto"
+              href="#puerto"
+              className="group flex items-center gap-4 rounded-2xl border-2 border-white/15 bg-white/10 px-6 py-5 text-left backdrop-blur-sm transition-all hover:border-violet-400/50 hover:bg-violet-500/20 hover:scale-[1.03]"
             >
-              Reservar cruceros
+              <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-violet-500/80">
+                <Ship className="h-7 w-7 text-white" />
+              </div>
+              <div>
+                <span className="block text-xl font-extrabold text-white">Puerto de BA</span>
+                <span className="text-sm text-violet-200">Parking + Traslado al puerto</span>
+              </div>
+              <svg className="ml-auto h-5 w-5 text-white/50 transition-transform group-hover:translate-x-1 group-hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+              </svg>
             </Link>
           </div>
 

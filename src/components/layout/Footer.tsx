@@ -21,7 +21,7 @@ export function Footer() {
             <p className="mt-4 text-sm leading-relaxed text-brand-400">
               Valet &middot; Estacionamiento &middot; Traslados
               <br />
-              Aeropuerto &amp; Cruceros
+              Aeropuerto &amp; Puerto de BA
             </p>
           </div>
 
@@ -52,7 +52,7 @@ export function Footer() {
                   href="/servicios/terminal-cruceros"
                   className="transition-colors hover:text-white"
                 >
-                  Terminal de Cruceros
+                  Puerto de Buenos Aires
                 </Link>
               </li>
             </ul>

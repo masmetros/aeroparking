@@ -61,14 +61,14 @@ export function ServiceSelector() {
             </div>
           </Link>
 
-          {/* CRUCEROS CARD */}
+          {/* PUERTO DE BA CARD */}
           <Link
-            href="#cruceros"
+            href="#puerto"
             className="group relative flex min-h-[420px] flex-col justify-end overflow-hidden rounded-3xl transition-all duration-300 hover:shadow-2xl hover:scale-[1.02]"
           >
             <img
               src="https://www.cronista.com/resizer/v2/L3YSXJLA2JCINILIDSFOXV6KPE.jpg?auth=507cbc1ca9b88afd772181a0ffb9349a408709904b339198a2d4a533db0b409c&height=899&width=1200&quality=70&smart=true"
-              alt="Terminal de Cruceros Buenos Aires"
+              alt="Puerto de Buenos Aires"
               className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-violet-950/90 via-violet-950/40 to-transparent" />
@@ -84,17 +84,17 @@ export function ServiceSelector() {
               </div>
 
               <h3 className="text-3xl font-extrabold text-white">
-                Cruceros
+                Puerto de BA
               </h3>
               <p className="text-sm font-medium text-violet-200">
-                Terminal de Buenos Aires &middot; Reserva directa
+                Puerto de Buenos Aires &middot; Reserva directa
               </p>
               <p className="mt-2 max-w-sm text-sm leading-relaxed text-violet-100/80">
                 Dejá tu auto seguro y te llevamos al puerto. Disfrutá tu crucero sin complicaciones.
               </p>
 
               <div className="mt-5 inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-bold text-violet-700 shadow-lg transition-all group-hover:bg-violet-50 group-hover:shadow-xl">
-                Reservar ahora
+                Ver opciones
                 <svg className="h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                 </svg>

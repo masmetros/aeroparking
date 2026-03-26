@@ -11,13 +11,13 @@ import {
 
 export function CruiseService() {
   return (
-    <section id="cruceros" className="section-padding bg-gradient-to-b from-white to-violet-50/30">
+    <section id="puerto" className="section-padding bg-gradient-to-b from-white to-violet-50/30">
       <div className="container-main">
         {/* Section header */}
         <div className="mx-auto mb-12 max-w-2xl text-center">
           <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-violet-100 px-4 py-1.5 text-sm font-semibold text-violet-700">
             <Ship className="h-4 w-4" />
-            Terminal de Cruceros
+            Puerto de Buenos Aires
           </div>
           <h2 className="text-3xl font-bold tracking-tight text-brand-900 sm:text-4xl">
             Parking + traslado al puerto
@@ -47,7 +47,7 @@ export function CruiseService() {
 
               {/* Info overlay on mobile */}
               <div className="absolute bottom-0 left-0 right-0 p-6 lg:hidden">
-                <h3 className="text-2xl font-extrabold text-white">Terminal de Cruceros</h3>
+                <h3 className="text-2xl font-extrabold text-white">Puerto de Buenos Aires</h3>
                 <p className="mt-1 text-sm text-violet-200">Parking vigilado + traslado al puerto</p>
               </div>
             </div>
@@ -55,10 +55,10 @@ export function CruiseService() {
             {/* Right — CTA */}
             <div className="flex flex-col justify-center bg-gradient-to-br from-violet-600 via-violet-700 to-purple-800 p-8 text-white md:p-10">
               <h3 className="hidden text-2xl font-extrabold lg:block">
-                ¿Salís de crucero?
+                ¿Salís desde el Puerto de BA?
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-violet-200">
-                Reservá tu lugar en minutos. Parking vigilado 24hs con traslado incluido a la terminal de cruceros de Buenos Aires.
+                Reservá tu lugar en minutos. Parking vigilado 24hs con traslado incluido al Puerto de Buenos Aires.
               </p>
 
               {/* Steps */}

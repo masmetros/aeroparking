@@ -142,23 +142,24 @@ export function AeroparqueServices() {
                   <Clock className="h-5 w-5 text-white" />
                   <h3 className="text-xl font-extrabold text-white">Larga Estadía</h3>
                 </div>
-                <p className="text-xs text-emerald-200">Estacionamiento + Transfer incluido</p>
+                <p className="text-xs text-emerald-200">Traslados In-Out incluidos</p>
               </div>
             </div>
 
             <div className="flex flex-1 flex-col p-6">
               <p className="text-sm leading-relaxed text-brand-600">
-                Dejá tu auto en Costa Salguero y tomá el transfer incluido
-                hasta Aeroparque. Al regresar, el transfer te lleva de vuelta.
+                Dejá tu auto en nuestro parking y te llevamos a Aeroparque.
+                Al regresar, te recogemos en el aeropuerto o en el puerto y
+                te llevamos de vuelta.
                 <strong> Ideal para viajes de 4 a 14 días.</strong>
               </p>
 
               <div className="mt-5 grid grid-cols-2 gap-3">
                 {[
                   "Dejás el auto",
-                  "Transfer a Aeroparque",
+                  "Te llevamos al aeropuerto",
                   "Viajás tranquilo",
-                  "Transfer de vuelta",
+                  "Te recogemos al volver",
                 ].map((step, i) => (
                   <div key={step} className="flex items-start gap-2">
                     <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-100 text-[10px] font-bold text-emerald-700">
@@ -172,9 +173,9 @@ export function AeroparqueServices() {
               <ul className="mt-5 space-y-2">
                 {[
                   "Estadías de 4 a 14 días",
-                  "Transfer ida y vuelta incluido",
+                  "Traslados In-Out incluidos",
+                  "Recogida en aeropuerto o puerto",
                   "Parking vigilado 24hs",
-                  "Reserva anticipada online",
                 ].map((f) => (
                   <li key={f} className="flex items-center gap-2 text-xs text-brand-700">
                     <Check className="h-3.5 w-3.5 shrink-0 text-green-500" />

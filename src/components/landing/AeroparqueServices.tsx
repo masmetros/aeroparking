@@ -159,7 +159,7 @@ export function AeroparqueServices() {
                   "Dejás el auto",
                   "Te llevamos al aeropuerto",
                   "Viajás tranquilo",
-                  "Te recogemos al volver",
+                  "Transfer te lleva a tu auto",
                 ].map((step, i) => (
                   <div key={step} className="flex items-start gap-2">
                     <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-100 text-[10px] font-bold text-emerald-700">

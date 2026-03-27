@@ -69,7 +69,7 @@ export function CruiseService() {
                   "Reservás online",
                   "Dejás el auto",
                   "Te llevamos al puerto",
-                  "Te recogemos al volver",
+                  "Transfer te lleva a tu auto",
                 ].map((step, i) => (
                   <div key={step} className="flex items-start gap-2">
                     <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-violet-100 text-[10px] font-bold text-violet-700">
@@ -147,7 +147,7 @@ export function CruiseService() {
                   "Dejás el auto",
                   "Te llevamos al puerto",
                   "Disfrutá tu viaje",
-                  "Te recogemos al volver",
+                  "Transfer te lleva a tu auto",
                 ].map((step, i) => (
                   <div key={step} className="flex items-start gap-2">
                     <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-100 text-[10px] font-bold text-emerald-700">
